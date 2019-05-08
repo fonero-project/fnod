@@ -6,7 +6,7 @@ Type=simple
 User=fnod
 Group=fnod
 WorkingDirectory=/var/fnod
-ExecStart=/opt/fnocoin/bin/fnod --appdata=/var/fnod
+ExecStart=/opt/fonero/bin/fnod --appdata=/var/fnod
 Restart=on-abnormal
 
 [Install]

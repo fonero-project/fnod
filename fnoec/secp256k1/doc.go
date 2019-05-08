@@ -4,7 +4,7 @@
 // license that can be found in the LICENSE file.
 
 /*
-Package secp256k1 implements support for the elliptic curves needed for fnocoin.
+Package secp256k1 implements support for the elliptic curves needed for fonero.
 
 Fonero uses elliptic curve cryptography using koblitz curves
 (specifically secp256k1) for cryptographic functions.  See

@@ -47,7 +47,7 @@ type TxLoc struct {
 	TxLen   int
 }
 
-// MsgBlock implements the Message interface and represents a fnocoin
+// MsgBlock implements the Message interface and represents a fonero
 // block message.  It is used to deliver block and transaction information in
 // response to a getdata message (MsgGetData) for a given block hash.
 type MsgBlock struct {

@@ -1,7 +1,7 @@
 wire
 ====
 
-[![Build Status](http://img.shields.io/travis/fnocoin/fnod.svg)](https://travis-ci.org/fnocoin/fnod)
+[![Build Status](http://img.shields.io/travis/fonero/fnod.svg)](https://travis-ci.org/fonero/fnod)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/fonero-project/fnod/wire)
 
@@ -22,7 +22,7 @@ $ go get -u github.com/fonero-project/fnod/wire
 
 The Fonero protocol consists of exchanging messages between peers. Each message
 is preceded by a header which identifies information about it such as which
-fnocoin network it is a part of, its type, how big it is, and a checksum to
+fonero network it is a part of, its type, how big it is, and a checksum to
 verify validity. All encoding and decoding of message headers is handled by this
 package.
 

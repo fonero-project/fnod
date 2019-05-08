@@ -144,7 +144,7 @@ information.
 
 If you have any further questions you can find us at:
 
-https://fnocoin.org/community
+https://fonero.org/community
 
 <a name="DeveloperResources" />
 

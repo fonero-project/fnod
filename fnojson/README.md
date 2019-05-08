@@ -1,7 +1,7 @@
 fnojson
 =======
 
-[![Build Status](https://travis-ci.org/fnocoin/fnod.png?branch=master)](https://travis-ci.org/fnocoin/fnod)
+[![Build Status](https://travis-ci.org/fonero/fnod.png?branch=master)](https://travis-ci.org/fonero/fnod)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/fonero-project/fnod/fnojson)
 
@@ -9,7 +9,7 @@ Package fnojson implements concrete types for marshalling to and from the
 bitcoin JSON-RPC API.  A comprehensive suite of tests is provided to ensure
 proper functionality.
 
-Although this package was primarily written for the fnocoin, it has
+Although this package was primarily written for the fonero, it has
 intentionally been designed so it can be used as a standalone package for any
 projects needing to marshal to and from bitcoin JSON-RPC requests and responses.
 

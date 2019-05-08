@@ -1,7 +1,7 @@
 blockchain
 ==========
 
-[![Build Status](http://img.shields.io/travis/fnocoin/fnod.svg)](https://travis-ci.org/fnocoin/fnod)
+[![Build Status](http://img.shields.io/travis/fonero/fnod.svg)](https://travis-ci.org/fonero/fnod)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/fonero-project/fnod/blockchain)
 
@@ -15,7 +15,7 @@ There is an associated blog post about the release of this package
 [here](https://blog.conformal.com/btcchain-the-bitcoin-chain-package-from-bctd/).
 
 This package has intentionally been designed so it can be used as a standalone
-package for any projects needing to handle processing of blocks into the fnocoin
+package for any projects needing to handle processing of blocks into the fonero
 block chain.
 
 ## Installation and Updating

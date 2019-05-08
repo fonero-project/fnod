@@ -7,7 +7,7 @@
 Package blockchain implements Fonero block handling and chain selection rules.
 
 The Fonero block handling and chain selection rules are an integral, and quite
-likely the most important, part of fnocoin.  Unfortunately, at the time of
+likely the most important, part of fonero.  Unfortunately, at the time of
 this writing, these rules are also largely undocumented and had to be
 ascertained from the bitcoind source code.  At its core, Fonero is a
 distributed consensus of which blocks are valid and which ones will comprise the

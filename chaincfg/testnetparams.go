@@ -21,8 +21,8 @@ var TestNetParams = Params{
 	DefaultPort: "19208",
 	// TODO: add more seeds
 	DNSSeeds: []DNSSeed{
-		{"testnet-seed.fnocoin.org", false},
-		{"testnet-seed.fnocoin.com", false},
+		{"testnet-seed.fonero.org", false},
+		{"testnet-seed.fonero.com", false},
 		{"orpmi4j4tsqnncqo.onion", false},
 	},
 

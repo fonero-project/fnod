@@ -16,7 +16,7 @@
       <method_credential group='fnod' user='fnod'/>
     </method_context>
 
-    <exec_method name='start' type='method' exec='/opt/fnocoin/bin/fnod --appdata /var/fnod' timeout_seconds='60'/>
+    <exec_method name='start' type='method' exec='/opt/fonero/bin/fnod --appdata /var/fnod' timeout_seconds='60'/>
     <exec_method name='stop' type='method' exec=':kill' timeout_seconds='60'/>
 
     <property_group name='startd' type='framework'>

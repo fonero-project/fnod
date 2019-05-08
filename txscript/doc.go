@@ -7,7 +7,7 @@
 Package txscript implements the Fonero transaction script language.
 
 This package provides data structures and functions to parse and execute
-fnocoin transaction scripts.
+fonero transaction scripts.
 
 Script Overview
 
@@ -25,7 +25,7 @@ which proves the spender owns the associated private key.  This information
 is used to prove the the spender is authorized to perform the transaction.
 
 One benefit of using a scripting language is added flexibility in specifying
-what conditions must be met in order to spend fnocoins.
+what conditions must be met in order to spend foneros.
 
 Errors
 

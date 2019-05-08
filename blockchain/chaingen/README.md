@@ -1,7 +1,7 @@
 chaingen
 ========
 
-[![Build Status](https://travis-ci.org/fnocoin/fnod.png?branch=master)](https://travis-ci.org/fnocoin/fnod)
+[![Build Status](https://travis-ci.org/fonero/fnod.png?branch=master)](https://travis-ci.org/fonero/fnod)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/fonero-project/fnod/blockchain/chaingen)
 

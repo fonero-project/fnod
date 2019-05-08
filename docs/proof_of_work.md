@@ -19,13 +19,13 @@ For all other hash function calls in Fonero BLAKE-256 is retained.
 
 See:
 
-*   `$GOPATH/src/github.com/fonero-project/fnocoin/fnod/cpuminer.go`
+*   `$GOPATH/src/github.com/fonero-project/fnod/cpuminer.go`
 *   `$GOPATH/src/github.com/btcsuite/btcd/mining/cpuminer/cpuminer.go`
-*   `$GOPATH/src/github.com/fonero-project/fnocoin/wire/blockheader.go`
+*   `$GOPATH/src/github.com/fonero-project/fnod/wire/blockheader.go`
     (`BlockHash()`)
 *   `$GOPATH/src/github.com/btcsuite/btcd/wire/blockheader.go`
     (`BlockHash()`)
-*   `$GOPATH/src/github.com/fonero-project/fnocoin/chaincfg/chainhash/hash.go`
+*   `$GOPATH/src/github.com/fonero-project/fnod/chaincfg/chainhash/hash.go`
 *   `$GOPATH/src/github.com/btcsuite/btcd/chaincfg/chainhash/hash.go`
 
 
@@ -56,9 +56,9 @@ Proof of work functions by varying the nonce value until a valid block is found,
     sha256 (sha256 ( header (otherdata, nonce) ) ) < difficulty threshold
 ```
 
-# VaterCoin Proof-of-Work
+# Fonero Proof-of-Work
 
-The only change in VaterCoin would be the addition of two XOR operations in the proof-of-work algorithm. All valid blocks therefore must meet the following constraint:
+The only change in Fonero would be the addition of two XOR operations in the proof-of-work algorithm. All valid blocks therefore must meet the following constraint:
 
 ```
     sha256 (sha256 ( header (otherdata, nonce) ) ^ magic_number ) ^ magic_number < difficulty_threshold

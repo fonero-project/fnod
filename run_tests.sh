@@ -84,19 +84,19 @@ if [ ! "$DOCKER" ]; then
 fi
 
 # use Travis cache with docker
-DOCKER_IMAGE_TAG=fnocoin-golang-builder-$GOVERSION
+DOCKER_IMAGE_TAG=fonero-golang-builder-$GOVERSION
 mkdir -p ~/.cache
 if [ -f ~/.cache/$DOCKER_IMAGE_TAG.tar ]; then
   # load via cache
   $DOCKER load -i ~/.cache/$DOCKER_IMAGE_TAG.tar
 else
   # pull and save image to cache
-  $DOCKER pull fnocoin/$DOCKER_IMAGE_TAG
-  $DOCKER save fnocoin/$DOCKER_IMAGE_TAG > ~/.cache/$DOCKER_IMAGE_TAG.tar
+  $DOCKER pull fonero/$DOCKER_IMAGE_TAG
+  $DOCKER save fonero/$DOCKER_IMAGE_TAG > ~/.cache/$DOCKER_IMAGE_TAG.tar
 fi
 
-$DOCKER run --rm -it -v $(pwd):/src:Z fnocoin/$DOCKER_IMAGE_TAG /bin/bash -c "\
+$DOCKER run --rm -it -v $(pwd):/src:Z fonero/$DOCKER_IMAGE_TAG /bin/bash -c "\
   rsync -ra --filter=':- .gitignore'  \
-  /src/ /go/src/github.com/fnocoin/$REPO/ && \
-  cd github.com/fnocoin/$REPO/ && \
+  /src/ /go/src/github.com/fonero/$REPO/ && \
+  cd github.com/fonero/$REPO/ && \
   env GOVERSION=$GOVERSION GO111MODULE=on bash run_tests.sh"

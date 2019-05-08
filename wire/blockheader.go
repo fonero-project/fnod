@@ -22,7 +22,7 @@ import (
 // --> Total 180 bytes.
 const MaxBlockHeaderPayload = 84 + (chainhash.HashSize * 3)
 
-// BlockHeader defines information about a block and is used in the fnocoin
+// BlockHeader defines information about a block and is used in the fonero
 // block (MsgBlock) and headers (MsgHeaders) messages.
 type BlockHeader struct {
 	// Version of the block.  This is not the same as the protocol version.

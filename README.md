@@ -4,7 +4,7 @@ Fonero
 This repository contains `fnod`, a Fonero full node implementation
 written in Go (Golang).
 
-It acts as a chain daemon for the [Fonero](https://fnocoin.org)
+It acts as a chain daemon for the [Fonero](https://fonero.org)
 cryptocurrency. `fnod` maintains the entire past transactional ledger
 of Fonero and allows relaying of transactions to other Fonero
 nodes across the world. To read more about Fonero please see the

@@ -2,11 +2,11 @@ fnoutil
 =======
 
 
-[![Build Status](http://img.shields.io/travis/fnocoin/fnod.svg)](https://travis-ci.org/fnocoin/fnod)
+[![Build Status](http://img.shields.io/travis/fonero/fnod.svg)](https://travis-ci.org/fonero/fnod)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/fonero-project/fnod/fnoutil)
 
-Package fnoutil provides fnocoin-specific convenience functions and types.
+Package fnoutil provides fonero-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.
 
 This package was developed for fnod, a full-node implementation of Fonero which

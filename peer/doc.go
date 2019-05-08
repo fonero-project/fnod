@@ -17,7 +17,7 @@ Payment Verification (SPV) nodes, proxies, etc.
 
 A quick overview of the major features peer provides are as follows:
 
- - Provides a basic concurrent safe Fonero peer for handling fnocoin
+ - Provides a basic concurrent safe Fonero peer for handling fonero
    communications via the peer-to-peer protocol
  - Full duplex reading and writing of Fonero protocol messages
  - Automatic handling of the initial handshake process including protocol
@@ -50,8 +50,8 @@ A quick overview of the major features peer provides are as follows:
 Peer Configuration
 
 All peer configuration is handled with the Config struct.  This allows the
-caller to specify things such as the user agent name and version, the fnocoin
-network to use, which services it supports, and callbacks to invoke when fnocoin
+caller to specify things such as the user agent name and version, the fonero
+network to use, which services it supports, and callbacks to invoke when fonero
 messages are received.  See the documentation for each field of the Config
 struct for more details.
 
@@ -72,12 +72,12 @@ cleanup has completed.
 
 Callbacks
 
-In order to do anything useful with a peer, it is necessary to react to fnocoin
+In order to do anything useful with a peer, it is necessary to react to fonero
 messages.  This is accomplished by creating an instance of the MessageListeners
 struct with the callbacks to be invoke specified and setting the Listeners field
 of the Config struct specified when creating a peer to it.
 
-For convenience, a callback hook for all of the currently supported fnocoin
+For convenience, a callback hook for all of the currently supported fonero
 messages is exposed which receives the peer instance and the concrete message
 type.  In addition, a hook for OnRead is provided so even custom messages types
 for which this package does not directly provide a hook, as long as they

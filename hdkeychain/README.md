@@ -1,7 +1,7 @@
 hdkeychain
 ==========
 
-[![Build Status](http://img.shields.io/travis/fnocoin/fnod.svg)](https://travis-ci.org/fnocoin/fnod)
+[![Build Status](http://img.shields.io/travis/fonero/fnod.svg)](https://travis-ci.org/fonero/fnod)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/fonero-project/fnod/hdkeychain)
 
@@ -23,7 +23,7 @@ report.
 - Easy serialization and deserialization for both private and public extended
   keys
 - Support for custom networks by registering them with chaincfg
-- Obtaining the underlying EC pubkeys, EC privkeys, and associated fnocoin
+- Obtaining the underlying EC pubkeys, EC privkeys, and associated fonero
   addresses ties in seamlessly with existing btcec and fnoutil types which
   provide powerful tools for working with them to do things like sign
   transactions and generate payment scripts

@@ -4,7 +4,7 @@
 // license that can be found in the LICENSE file.
 
 /*
-Package fnoutil provides fnocoin-specific convenience functions and types.
+Package fnoutil provides fonero-specific convenience functions and types.
 
 Block Overview
 
