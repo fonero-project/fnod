@@ -1,0 +1,13 @@
+[Unit]
+Description=Fonero Full Node
+
+[Service]
+Type=simple
+User=fnod
+Group=fnod
+WorkingDirectory=/var/fnod
+ExecStart=/opt/fnocoin/bin/fnod --appdata=/var/fnod
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target
