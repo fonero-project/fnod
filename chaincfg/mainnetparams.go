@@ -109,8 +109,8 @@ var MainNetParams = Params{
 	StakeMajorityDivisor:    4,
 
 	// Fonero organization related parameters
-	// Organization address is FeU43yb6ctjvdD3PFL4odp9MWY9yeMvQLaW
-	OrganizationPkScript:        hexDecode("76a9141c20f907c788443af697e3404805c873afd73dec88ac"),
+	// Organization address is FeonxBtzfAmF8sbseiPDYd5Fxmj2PUTbTxY
+	OrganizationPkScript:        hexDecode("76a914f4a86ae981dde0ec8bf494203a7ad9d26edac1e688ac"),
 	OrganizationPkScriptVersion: 0,
 	BlockOneLedger:              BlockOneLedgerMainNet,
 }
