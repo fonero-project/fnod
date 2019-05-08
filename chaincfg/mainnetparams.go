@@ -110,7 +110,7 @@ var MainNetParams = Params{
 
 	// Fonero organization related parameters
 	// Organization address is Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx
-	OrganizationPkScript:        hexDecode(""),
+	OrganizationPkScript:        hexDecode("76a9141c20f907c788443af697e3404805c873afd73dec88ac"),
 	OrganizationPkScriptVersion: 0,
 	BlockOneLedger:              BlockOneLedgerMainNet,
 }
