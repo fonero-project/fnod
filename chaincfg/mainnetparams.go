@@ -38,7 +38,7 @@ var MainNetParams = Params{
 	RetargetAdjustmentFactor: 4,
 
 	// Subsidy parameters.
-	BaseSubsidy:              3119582664, // 21m
+	BaseSubsidy:              6239165328,
 	MulSubsidy:               100,
 	DivSubsidy:               101,
 	SubsidyReductionInterval: 6144,
