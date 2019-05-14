@@ -17,7 +17,7 @@ var MainNetParams = Params{
 	Net:         wire.MainNet,
 	DefaultPort: "9208",
 	DNSSeeds: []DNSSeed{
-//		{"seed.fonero.org", true},
+		{"dnsseed.fonero.org", true},
 	},
 
 	// Chain parameters
