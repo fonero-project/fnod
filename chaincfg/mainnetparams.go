@@ -25,16 +25,16 @@ var MainNetParams = Params{
 	GenesisHash:              &genesisHash,
 	PowLimit:                 mainPowLimit,
 	PowLimitBits:             0x1d00ffff,
-	ReduceMinDifficulty:      false,
-	MinDiffReductionTime:     0, // Does not apply since ReduceMinDifficulty false
+	ReduceMinDifficulty:      true, // false
+	MinDiffReductionTime:     time.Minute * 10, // 0 ~99.3% chance to be mined before reduction
 	GenerateSupported:        true,
 	MaximumBlockSizes:        []int{393216},
 	MaxTxSize:                393216,
-	TargetTimePerBlock:       time.Minute * 5,
+	TargetTimePerBlock:       time.Minute * 0.1, // time.Minute * 5
 	WorkDiffAlpha:            1,
-	WorkDiffWindowSize:       144,
-	WorkDiffWindows:          20,
-	TargetTimespan:           time.Minute * 5 * 144, // TimePerBlock * WindowSize
+	WorkDiffWindowSize:       14400, // 144
+	WorkDiffWindows:          2000, // 20
+	TargetTimespan:           time.Minute * 0.1 * 14400, // time.Minute * 5 * 144 TimePerBlock * WindowSize
 	RetargetAdjustmentFactor: 4,
 
 	// Subsidy parameters.
