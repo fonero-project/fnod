@@ -165,6 +165,10 @@ const (
 	// algorithm (aka ticket price) agenda defined by DCP0001.
 	VoteIDSDiffAlgorithm = "sdiffalgorithm"
 
+	// VoteIDLNSupport is the vote ID for determining if the developers
+	// should work on integrating Lightning Network support.
+	VoteIDLNSupport = "lnsupport"
+
 	// VoteIDLNFeatures is the vote ID for the agenda that introduces
 	// features useful for the Lightning Network (among other uses) defined
 	// by DCP0002 and DCP0003.
