@@ -33,7 +33,7 @@ var MainNetParams = Params{
 	TargetTimePerBlock:       time.Minute * 5,
 	WorkDiffAlpha:            1,
 	WorkDiffWindowSize:       144,
-	WorkDiffWindows:          20, // 20
+	WorkDiffWindows:          20,
 	TargetTimespan:           time.Minute * 5 * 144,
 	RetargetAdjustmentFactor: 4,
 
