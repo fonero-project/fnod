@@ -60,7 +60,7 @@ var MainNetParams = Params{
 			Vote: Vote{
 				Id:          VoteIDSDiffAlgorithm,
 				Description: "Change stake difficulty algorithm as defined in DCP0001",
-				Mask:        0x0006, // Bits 1 and 2
+				Mask:        0x0006,
 				Choices: []Choice{{
 					Id:          "abstain",
 					Description: "abstain voting for change",
@@ -70,24 +70,24 @@ var MainNetParams = Params{
 				}, {
 					Id:          "no",
 					Description: "keep the existing algorithm",
-					Bits:        0x0002, // Bit 1
+					Bits:        0x0002,
 					IsAbstain:   false,
 					IsNo:        true,
 				}, {
 					Id:          "yes",
 					Description: "change to the new algorithm",
-					Bits:        0x0004, // Bit 2
+					Bits:        0x0004,
 					IsAbstain:   false,
 					IsNo:        false,
 				}},
 			},
-			StartTime:  1493164800, // Apr 26th, 2017
-			ExpireTime: 1524700800, // Apr 26th, 2018
+			StartTime:  1558329100,
+			ExpireTime: 1558329200,
 		}, {
 			Vote: Vote{
 				Id:          VoteIDLNSupport,
 				Description: "Request developers begin work on Lightning Network (LN) integration",
-				Mask:        0x0018, // Bits 3 and 4
+				Mask:        0x0018,
 				Choices: []Choice{{
 					Id:          "abstain",
 					Description: "abstain from voting",
@@ -97,25 +97,25 @@ var MainNetParams = Params{
 				}, {
 					Id:          "no",
 					Description: "no, do not work on integrating LN support",
-					Bits:        0x0008, // Bit 3
+					Bits:        0x0008,
 					IsAbstain:   false,
 					IsNo:        true,
 				}, {
 					Id:          "yes",
 					Description: "yes, begin work on integrating LN support",
-					Bits:        0x0010, // Bit 4
+					Bits:        0x0010,
 					IsAbstain:   false,
 					IsNo:        false,
 				}},
 			},
-			StartTime:  1493164800, // Apr 26th, 2017
-			ExpireTime: 1508976000, // Oct 26th, 2017
+			StartTime:  1558329200,
+			ExpireTime: 1558329300,
 		}},
 		5: {{
 			Vote: Vote{
 				Id:          VoteIDLNFeatures,
 				Description: "Enable features defined in DCP0002 and DCP0003 necessary to support Lightning Network (LN)",
-				Mask:        0x0006, // Bits 1 and 2
+				Mask:        0x0006,
 				Choices: []Choice{{
 					Id:          "abstain",
 					Description: "abstain voting for change",
@@ -131,19 +131,19 @@ var MainNetParams = Params{
 				}, {
 					Id:          "yes",
 					Description: "change to the new consensus rules",
-					Bits:        0x0004, // Bit 2
+					Bits:        0x0004,
 					IsAbstain:   false,
 					IsNo:        false,
 				}},
 			},
-			StartTime:  1505260800, // Sep 13th, 2017
-			ExpireTime: 1536796800, // Sep 13th, 2018
+			StartTime:  1558329400,
+			ExpireTime: 1558329500,
 		}},
 		6: {{
 			Vote: Vote{
 				Id:          VoteIDFixLNSeqLocks,
 				Description: "Modify sequence lock handling as defined in DCP0004",
-				Mask:        0x0006, // Bits 1 and 2
+				Mask:        0x0006,
 				Choices: []Choice{{
 					Id:          "abstain",
 					Description: "abstain voting for change",
@@ -153,19 +153,19 @@ var MainNetParams = Params{
 				}, {
 					Id:          "no",
 					Description: "keep the existing consensus rules",
-					Bits:        0x0002, // Bit 1
+					Bits:        0x0002,
 					IsAbstain:   false,
 					IsNo:        true,
 				}, {
 					Id:          "yes",
 					Description: "change to the new consensus rules",
-					Bits:        0x0004, // Bit 2
+					Bits:        0x0004,
 					IsAbstain:   false,
 					IsNo:        false,
 				}},
 			},
-			StartTime:  1548633600, // Jan 28th, 2019
-			ExpireTime: 1580169600, // Jan 28th, 2020
+			StartTime:  1558329600,
+			ExpireTime: 1558329700,
 		}},
 	},
 	
