@@ -81,8 +81,8 @@ var MainNetParams = Params{
 					IsNo:        false,
 				}},
 			},
-			StartTime:  1558329100,
-			ExpireTime: 1558329200,
+			StartTime:  1558329000,
+			ExpireTime: 1558329100,
 		}, {
 			Vote: Vote{
 				Id:          VoteIDLNSupport,
