@@ -3634,7 +3634,7 @@ func handleGetStakeVersionInfo(s *rpcServer, cmd interface{}, closeChan <-chan s
 	if c.Count != nil {
 		count = *c.Count
 		if count <= 0 {
-			return nil, nil //rpcInvalidError("Count must be positive")
+			return nil, rpcInvalidError("Count must be positive")
 		}
 	}
 
